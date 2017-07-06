@@ -1,0 +1,20 @@
+{I:/Jelle Meeus/2Ba2E/Digitale elektronica/adres_dec/adres_dec_test.vhd} {1 {vcom -work work -2002 -explicit -vopt {I:/Jelle Meeus/2Ba2E/Digitale elektronica/adres_dec/adres_dec_test.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity adres_dec_test
+-- Compiling architecture structural of adres_dec_test
+-- Loading entity adres_dec
+
+} {} {}} {I:/Jelle Meeus/2Ba2E/Digitale elektronica/adres_dec/adres_dec.vhd} {1 {vcom -work work -2002 -explicit -vopt {I:/Jelle Meeus/2Ba2E/Digitale elektronica/adres_dec/adres_dec.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity adres_dec
+-- Compiling architecture behavior of adres_dec
+
+} {} {}}

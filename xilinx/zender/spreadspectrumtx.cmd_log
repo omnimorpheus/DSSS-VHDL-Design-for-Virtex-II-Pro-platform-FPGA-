@@ -1,0 +1,38 @@
+xst -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.xst" -ofn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.syr"
+ngdbuild -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-7 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+xst -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.xst" -ofn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.syr"
+ngdbuild -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-7 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+xst -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.xst" -ofn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.syr"
+ngdbuild -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-7 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+map -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -p xc2vp30-ff896-7 -cm area -pr off -k 4 -c 100 -tx off -o spreadspectrumtx_map.ncd spreadspectrumtx.ngd spreadspectrumtx.pcf
+par -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -w -intstyle ise -ol std -t 1 spreadspectrumtx_map.ncd spreadspectrumtx.ncd spreadspectrumtx.pcf
+trce -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -e 3 -s 7 -xml spreadspectrumtx spreadspectrumtx.ncd -o spreadspectrumtx.twr spreadspectrumtx.pcf
+bitgen -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -f spreadspectrumtx.ut spreadspectrumtx.ncd
+xst -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.xst" -ofn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.syr"
+ngdbuild -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-7 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+xst -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.xst" -ofn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.syr"
+ngdbuild -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-7 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+xst -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.xst" -ofn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.syr"
+ngdbuild -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-7 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+xst -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.xst" -ofn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.syr"
+ngdbuild -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-7 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+xst -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.xst" -ofn "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/spreadspectrumtx.syr"
+ngdbuild -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-7 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+ngdbuild -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-7 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+ngdbuild -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc2vp30-ff896-7 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+map -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -p xc2vp30-ff896-7 -cm area -pr off -k 4 -c 100 -tx off -o spreadspectrumtx_map.ncd spreadspectrumtx.ngd spreadspectrumtx.pcf
+par -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -w -intstyle ise -ol std -t 1 spreadspectrumtx_map.ncd spreadspectrumtx.ncd spreadspectrumtx.pcf
+trce -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -e 3 -s 7 -xml spreadspectrumtx spreadspectrumtx.ncd -o spreadspectrumtx.twr spreadspectrumtx.pcf -ucf xup_dsss.ucf
+bitgen -ise "E:/Jelle Meeus/digitale synthese/19dec/xilinx/zender/zender.ise" -intstyle ise -f spreadspectrumtx.ut spreadspectrumtx.ncd
+xst -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn spreadspectrumtx.xst -ofn spreadspectrumtx.syr
+xst -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn spreadspectrumtx.xst -ofn spreadspectrumtx.syr
+xst -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn spreadspectrumtx.xst -ofn spreadspectrumtx.syr
+xst -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn spreadspectrumtx.xst -ofn spreadspectrumtx.syr
+xst -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn spreadspectrumtx.xst -ofn spreadspectrumtx.syr
+xst -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -ifn spreadspectrumtx.xst -ofn spreadspectrumtx.syr
+ngdbuild -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo -nt timestamp -uc "xup_dsss.ucf" -p xc2vp30-ff896-6 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+ngdbuild -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -dd _ngo -nt timestamp -uc "xup_dsss.ucf" -p xc2vp30-ff896-6 "spreadspectrumtx.ngc" spreadspectrumtx.ngd
+map -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off -o spreadspectrumtx_map.ncd spreadspectrumtx.ngd spreadspectrumtx.pcf
+par -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -w -intstyle ise -ol std -t 1 spreadspectrumtx_map.ncd spreadspectrumtx.ncd spreadspectrumtx.pcf
+trce -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -e 3 -l 3 -s 6 -xml spreadspectrumtx spreadspectrumtx.ncd -o spreadspectrumtx.twr spreadspectrumtx.pcf -ucf xup_dsss.ucf
+bitgen -ise "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.ise" -intstyle ise -f spreadspectrumtx.ut spreadspectrumtx.ncd

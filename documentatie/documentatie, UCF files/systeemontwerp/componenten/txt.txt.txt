@@ -1,0 +1,8 @@
+PED x
+N-bit = generic x
+shift register x
+converter bin2seven x
+converter bin2led = maken x
+FSM = led springt 
+register x
+comparator = checken of generic x

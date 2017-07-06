@@ -1,0 +1,101 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/VHDL/B/ped
+Esysteemontwerp
+Z0 w1427921768
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dE:/VHDL/systeemontwerp/componenten/systeemontwerp
+Z7 8E:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp.vhd
+Z8 FE:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp.vhd
+l0
+L25
+VXHHCnGIC8;KYbeB;T6cS<0
+!s100 D_<zko66ze[?=Azm7h@CB1
+Z9 OP;C;10.4;61
+32
+Z10 !s110 1427921784
+!i10b 1
+Z11 !s108 1427921782.408000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp.vhd|
+Z13 !s107 E:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit -O0
+Z15 tExplicit 1
+Abehavior
+R1
+R2
+R3
+R4
+R5
+Z16 DEx4 work 14 systeemontwerp 0 22 XHHCnGIC8;KYbeB;T6cS<0
+l137
+L40
+V:<Qf`Ro4ZB4P@VeBDhb=M2
+!s100 KfJH7G]4=95Gmb2Id149m2
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Esysteemontwerp_test
+Z17 w1427921366
+R1
+R2
+R3
+R4
+R5
+R6
+Z18 8E:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp_test.vhd
+Z19 FE:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp_test.vhd
+l0
+L7
+VfB=OTh6lSgL0o?Qz0[Ik21
+!s100 TJS5RQo;m1LaEmBodDf5f1
+R9
+32
+Z20 !s110 1427921788
+!i10b 1
+Z21 !s108 1427921787.793000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp_test.vhd|
+Z23 !s107 E:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp_test.vhd|
+!i113 1
+R14
+R15
+Astructural
+R16
+R1
+R2
+R3
+R4
+R5
+Z24 DEx4 work 19 systeemontwerp_test 0 22 fB=OTh6lSgL0o?Qz0[Ik21
+l44
+L10
+Z25 V7iP`RUQoB::9600j]JQia0
+Z26 !s100 k0KDH4^A2hSVk=aJB?DUG3
+R9
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15

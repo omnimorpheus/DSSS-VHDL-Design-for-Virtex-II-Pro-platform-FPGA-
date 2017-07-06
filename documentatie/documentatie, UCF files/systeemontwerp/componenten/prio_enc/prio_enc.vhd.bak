@@ -1,0 +1,41 @@
+-----------------------------------------------------------------
+-- Project    : Labo Digitale ELektronica
+-- Author     : Jelle Meeus - campus De Nayer
+-- Begin Date : 11/03/2015
+-- Revision   : version 1 - 18/03/2010 - Jelle Meeus
+-- File       : prio_enc.vhd
+-----------------------------------------------------------------
+-- Design: 
+-- PRIORITY ENCODER
+--
+-- Description:
+-- This entity/architecture pair is a PRIORITY ENCODER
+-- with 8 binary inputs (adres) and 3 binary outputs (LED).
+-----------------------------------------------------------------
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_unsigned.ALL;
+
+ENTITY prio_enc IS
+PORT (adres :IN  std_logic_vector(7 DOWNTO 0);
+      LED   :OUT std_logic_vector(2 DOWNTO 0));
+END prio_enc;
+
+ARCHITECTURE behavior OF prio_enc IS
+BEGIN
+
+prio_enc_gate: PROCESS (adres)
+BEGIN
+   CASE adres IS
+	WHEN "10000000" => LED <="000";
+	WHEN "01000000" => LED <="001";
+	WHEN "00100000" => LED <="010";
+	WHEN "00010000" => LED <="011";
+	WHEN "00001000" => LED <="100";
+	WHEN "00000100" => LED <="101";
+	WHEN "00000010" => LED <="110";
+	WHEN "00000001" => LED <="111";
+	WHEN OTHERS => LED <= "000";
+   END CASE;
+  END PROCESS prio_enc_gate;
+END behavior;

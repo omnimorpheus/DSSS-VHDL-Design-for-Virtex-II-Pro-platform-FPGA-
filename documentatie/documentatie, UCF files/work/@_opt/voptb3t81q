@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech_6.5\examples
+T_opt
+Z1 VeIG1K[24GF`W:oA[NCCiF3
+Z2 04 10 10 work counter_tb structural 1
+Z3 =1-989096e0a932-57ea1ff0-2e6-394
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5;42
+Ecounter
+Z7 w1474959398
+Z8 DPx21 C:\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z9 DPx21 C:\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z10 DPx21 C:\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z11 dE:\Jelle Meeus\digitale synthese\documentatie, UCF files
+Z12 8E:/Jelle Meeus/digitale synthese/documentatie, UCF files/counter.vhd
+Z13 FE:/Jelle Meeus/digitale synthese/documentatie, UCF files/counter.vhd
+l0
+L6
+Z14 Vo?:o6`6nBMf[Ra64nJ`362
+Z15 OE;C;6.5;42
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1
+Z18 !s100 m0NWf399KP1KeAkZcnnGK3
+Abehav
+R8
+R9
+R10
+Z19 DEx61 E:\Jelle Meeus\digitale synthese\documentatie, UCF files\work 7 counter 0 22 o?:o6`6nBMf[Ra64nJ`362
+32
+Mx3 21 C:\modeltech_6.5\ieee 14 std_logic_1164
+Mx2 21 C:\modeltech_6.5\ieee 15 std_logic_arith
+Mx1 21 C:\modeltech_6.5\ieee 18 std_logic_unsigned
+l19
+L15
+Z20 V=Iza4WgeG>QcHm3@i@]j80
+R15
+R16
+R17
+Z21 !s100 ^BQeiV3GWM5nk?zUMao6_1
+Ecounter_tb
+Z22 w1474959400
+R9
+R8
+Z23 DPx21 C:\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R10
+32
+R11
+Z24 8E:/Jelle Meeus/digitale synthese/documentatie, UCF files/counter_tb.vhd
+Z25 FE:/Jelle Meeus/digitale synthese/documentatie, UCF files/counter_tb.vhd
+l0
+L6
+Z26 V;6_Zla`1SP;12]HbhEV7P3
+R15
+R16
+R17
+Z27 !s100 VXZFW8i]OB2oiHFLdHGBV2
+Astructural
+R19
+R9
+R8
+R23
+R10
+DEx61 E:\Jelle Meeus\digitale synthese\documentatie, UCF files\work 10 counter_tb 0 22 ;6_Zla`1SP;12]HbhEV7P3
+32
+Mx4 21 C:\modeltech_6.5\ieee 14 std_logic_1164
+Mx3 21 C:\modeltech_6.5\ieee 11 numeric_std
+Mx2 21 C:\modeltech_6.5\ieee 18 std_logic_unsigned
+Mx1 21 C:\modeltech_6.5\ieee 15 std_logic_arith
+l32
+L9
+Z28 VadB>;j?DOOGk<9VWSCNUj2
+R15
+R16
+R17
+Z29 !s100 I63:TNkU36AnY2?kA;[_@1

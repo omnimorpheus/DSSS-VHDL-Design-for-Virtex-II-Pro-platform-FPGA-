@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map I.31 on Mon Dec 19 19:56:31 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "tx_data" LOCATE = SITE "N5" LEVEL 1;
+COMP "channel_a" LOCATE = SITE "T6" LEVEL 1;
+COMP "channel_b" LOCATE = SITE "V1" LEVEL 1;
+COMP "seven_segment<0>" LOCATE = SITE "R8" LEVEL 1;
+COMP "s0" LOCATE = SITE "N3" LEVEL 1;
+COMP "seven_segment<1>" LOCATE = SITE "P5" LEVEL 1;
+COMP "s1" LOCATE = SITE "N4" LEVEL 1;
+COMP "seven_segment<2>" LOCATE = SITE "P4" LEVEL 1;
+COMP "seven_segment<3>" LOCATE = SITE "T2" LEVEL 1;
+COMP "p<0>" LOCATE = SITE "N1" LEVEL 1;
+COMP "seven_segment<4>" LOCATE = SITE "R2" LEVEL 1;
+COMP "p<1>" LOCATE = SITE "M3" LEVEL 1;
+COMP "seven_segment<5>" LOCATE = SITE "P2" LEVEL 1;
+COMP "seven_segment<6>" LOCATE = SITE "R7" LEVEL 1;
+COMP "clk_100mhz" LOCATE = SITE "AJ15" LEVEL 1;
+COMP "rst" LOCATE = SITE "P7" LEVEL 1;
+NET "clk_100mhz_BUFGP/IBUFG" BEL "clk_100mhz_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+NET "clk_100mhz_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;

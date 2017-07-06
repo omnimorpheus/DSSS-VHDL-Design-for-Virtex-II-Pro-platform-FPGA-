@@ -1,0 +1,41 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+USE ieee.std_logic_unsigned.ALL;
+
+ENTITY counter IS
+PORT (clk,rst_b,en :IN  std_logic;
+      LD_ext     :OUT std_logic_vector(3 DOWNTO 0);
+      ledbar     :OUT std_logic_vector(3 DOWNTO 0));
+END;
+
+ARCHITECTURE behavior OF counter IS
+SIGNAL count :std_logic_vector(3 DOWNTO 0);
+SIGNAL LD :std_logic_vector(3 DOWNTO 0);
+SIGNAL TC :std_logic_vector(3 DOWNTO 0);
+SIGNAL p_data :std_logic;
+BEGIN
+bincount <= count;
+cnt : PROCESS (clk)
+BEGIN
+IF rising_edge(clk)
+	THEN 
+		IF rst_b='0'
+			THEN count <= (OTHERS=>'0');
+		ELSIF en='1'
+      THEN count <= count + 1;
+   ELSIF tc='1'
+      THEN count<= p_data;
+   ELSE
+    count<=count;    
+ 		END IF;
+END IF;
+END PROCESS cnt;
+
+LD <= (LD_ext OR TC);
+
+cmb : PROCESS (count)
+BEGIN 
+TC<= LD;
+END PROCESS cmb;
+END behavior;

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1561" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/binair2sevenseg.vhd</arg>&quot; line <arg fmt="%d" index="2">47</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/accesslayer.vhd</arg>&quot; line <arg fmt="%d" index="2">99</arg>: Mux is complete : default of case is discarded
+</msg>
+
+</messages>

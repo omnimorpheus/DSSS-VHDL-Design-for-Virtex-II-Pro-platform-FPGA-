@@ -1,0 +1,25 @@
+{I:/Jelle Meeus/2Ba2E/Digitale elektronica/bint/bint_test.vhd} {0 {vcom -work work -2002 -explicit -vopt {I:/Jelle Meeus/2Ba2E/Digitale elektronica/bint/bint_test.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity counter_test
+-- Compiling architecture structural of counter_test
+-- Loading entity counter
+** Error: I:/Jelle Meeus/2Ba2E/Digitale elektronica/bint/bint_test.vhd(39): (vcom-1035) Formal port "p_data" has OPEN or no actual associated with it.
+** Error: I:/Jelle Meeus/2Ba2E/Digitale elektronica/bint/bint_test.vhd(39): (vcom-1035) Formal port "tc" has OPEN or no actual associated with it.
+** Error: I:/Jelle Meeus/2Ba2E/Digitale elektronica/bint/bint_test.vhd(82): VHDL Compiler exiting
+
+} {11.0 14.0} {}} {I:/Jelle Meeus/2Ba2E/Digitale elektronica/bint/bint.vhd} {1 {vcom -work work -2002 -explicit -vopt {I:/Jelle Meeus/2Ba2E/Digitale elektronica/bint/bint.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity counter
+-- Compiling architecture behavior of counter
+
+} {} {}}

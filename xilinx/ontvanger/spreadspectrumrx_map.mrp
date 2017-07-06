@@ -1,0 +1,164 @@
+Release 8.2i Map I.31
+Xilinx Mapping Report File for Design 'spreadspectrumrx'
+
+Design Information
+------------------
+Command Line   : D:\Xilinx2\bin\nt\map.exe -ise
+C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/on
+tvanger.ise -intstyle ise -p xc2vp30-ff896-6 -cm area -pr b -k 4 -c 100 -tx off
+-o spreadspectrumrx_map.ncd spreadspectrumrx.ngd spreadspectrumrx.pcf 
+Target Device  : xc2vp30
+Target Package : ff896
+Target Speed   : -6
+Mapper Version : virtex2p -- $Revision: 1.34.32.1 $
+Mapped Date    : Mon Dec 19 19:58:31 2016
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:          97 out of  27,392    1%
+  Number of 4 input LUTs:             171 out of  27,392    1%
+Logic Distribution:
+  Number of occupied Slices:           98 out of  13,696    1%
+  Number of Slices containing only related logic:      98 out of      98  100%
+  Number of Slices containing unrelated logic:          0 out of      98    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            180 out of  27,392    1%
+  Number used as logic:               171
+  Number used as a route-thru:          9
+
+  Number of bonded IOBs:               12 out of     556    2%
+  Number of PPC405s:                   0 out of       2    0%
+  Number of GCLKs:                      1 out of      16    6%
+  Number of GTs:                        0 out of       8    0%
+  Number of GT10s:                      0 out of       0    0%
+
+Total equivalent gate count for design:  1,883
+Additional JTAG gate count for IOBs:  576
+Peak Memory Usage:  282 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:535 - The following Virtex BUFG(s) is/are being retargetted to
+   Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+   BUFGP symbol "clk_100mhz_BUFGP" (output signal=clk_100mhz_BUFGP)
+INFO:MapLib:159 - Net Timing constraints on signal clk_100mhz are pushed forward
+   through input buffer.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs in the
+   schematic.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| clk_100mhz                         | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| p<0>                               | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| p<1>                               | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| rst                                | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_data                            | IOB     | INPUT     | LVTTL       |          |      |          |          |       |
+| seven_segment<0>                   | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| seven_segment<1>                   | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| seven_segment<2>                   | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| seven_segment<3>                   | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| seven_segment<4>                   | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| seven_segment<5>                   | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
+| seven_segment<6>                   | IOB     | OUTPUT    | LVTTL       | 12       | SLOW |          |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings

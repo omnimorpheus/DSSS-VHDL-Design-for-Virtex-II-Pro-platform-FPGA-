@@ -1,0 +1,69 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx2\bin\nt\trce.exe -ise
+C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger.ise
+-intstyle ise -e 3 -l 3 -s 6 -xml spreadspectrumrx spreadspectrumrx.ncd -o
+spreadspectrumrx.twr spreadspectrumrx.pcf -ucf xup_dsss.ucf
+
+Design file:              spreadspectrumrx.ncd
+Physical constraint file: spreadspectrumrx.pcf
+Device,speed:             xc2vp30,-6 (PRODUCTION 1.92 2006-05-03)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: NET "clk_100mhz_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+
+ 4016 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   5.342ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk_100mhz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_100mhz     |    5.342|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 4016 paths, 0 nets, and 772 connections
+
+Design statistics:
+   Minimum period:   5.342ns   (Maximum frequency: 187.196MHz)
+
+
+Analysis completed Mon Dec 19 19:58:44 2016
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 238 MB
+
+
+

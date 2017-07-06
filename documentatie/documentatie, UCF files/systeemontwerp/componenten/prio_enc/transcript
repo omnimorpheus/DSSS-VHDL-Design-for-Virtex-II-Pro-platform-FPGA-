@@ -1,0 +1,79 @@
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc_test.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors. 
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc_test.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors. 
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc_test.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors. 
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc_test.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors. 
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc_test.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+vsim work.prio_enc_test
+# vsim work.prio_enc_test 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.prio_enc(behavior).
+# ** Warning: [1] I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd(30): (vopt-3473) Component instance "uut : prio_enc" is not bound.
+# Optimization failed
+# Error loading design
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc_test.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+vsim work.prio_enc_test
+# vsim work.prio_enc_test 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-11) Could not find work.prio_enc(behavior).
+# ** Warning: [1] I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd(30): (vopt-3473) Component instance "uut : prio_enc" is not bound.
+# Optimization failed
+# Error loading design
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc_test.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc_test.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc.vhd failed with 1 errors.
+# Compile of prio_enc_test.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of prio_enc.vhd was successful.
+# Compile of prio_enc_test.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.prio_enc_test
+# vsim work.prio_enc_test 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.prio_enc_test(structural)#1
+# Loading work.prio_enc(behavior)#1
+add wave -r sim:/prio_enc_test/uut/*
+run -all
+# Compile of prio_enc.vhd was successful.
+# Compile of prio_enc_test.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.prio_enc_test
+# vsim work.prio_enc_test 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.prio_enc_test(structural)#1
+# Loading work.prio_enc(behavior)#1
+add wave -r sim:/prio_enc_test/uut/*
+run -all
+# Compile of prio_enc.vhd was successful.
+# Compile of prio_enc_test.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of prio_enc.vhd was successful.
+# Compile of prio_enc_test.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of prio_enc.vhd was successful.

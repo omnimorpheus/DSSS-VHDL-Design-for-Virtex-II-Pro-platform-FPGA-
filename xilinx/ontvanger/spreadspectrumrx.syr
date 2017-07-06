@@ -1,0 +1,662 @@
+Release 8.2i - xst I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.05 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.05 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: spreadspectrumrx.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "spreadspectrumrx.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "spreadspectrumrx"
+Output Format                      : NGC
+Target Device                      : xc2vp30-6-ff896
+
+---- Source Options
+Top Module Name                    : spreadspectrumrx
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : spreadspectrumrx.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+tristate2logic                     : Yes
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ped.vhd" in Library work.
+Architecture behavior of Entity ped is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/binair2sevenseg.vhd" in Library work.
+Architecture behavior of Entity binair2sevenseg is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/data_latch.vhd" in Library work.
+Architecture behavior of Entity data_latch is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_dataregister.vhd" in Library work.
+Architecture behavior of Entity ontvanger_dataregister is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/dpll.vhd" in Library work.
+Architecture behavior of Entity dpll is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/matched_filter.vhd" in Library work.
+Architecture behavior of Entity matched_filter is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/pngeneratornco.vhd" in Library work.
+Architecture behavior of Entity pngeneratornco is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/despread.vhd" in Library work.
+Architecture behavior of Entity despread is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/correlator.vhd" in Library work.
+Architecture behavior of Entity correlator is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_accesslayer.vhd" in Library work.
+Architecture behavior of Entity ontvanger_accesslayer is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_datalinklayer.vhd" in Library work.
+Architecture behavior of Entity ontvanger_datalinklayer is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_applicationlayer.vhd" in Library work.
+Architecture behavior of Entity ontvanger_applicationlayer is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/counter_ce.vhd" in Library work.
+Architecture behavior of Entity counter_ce is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger.vhd" in Library work.
+Architecture behavior of Entity ontvanger is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/spreadspectrumrx.vhd" in Library work.
+Architecture behavior of Entity spreadspectrumrx is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <spreadspectrumrx> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <counter_ce> in library <work> (architecture <behavior>) with generics.
+	w = 10
+
+Analyzing hierarchy for entity <ontvanger> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <ontvanger_accesslayer> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <ontvanger_datalinklayer> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <ontvanger_applicationlayer> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <dpll> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <matched_filter> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <pngeneratornco> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <despread> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <correlator> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <ontvanger_dataregister> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <binair2sevenseg> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <data_latch> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <ped> in library <work> (architecture <behavior>).
+
+Building hierarchy successfully finished.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <spreadspectrumrx> in library <work> (Architecture <behavior>).
+Entity <spreadspectrumrx> analyzed. Unit <spreadspectrumrx> generated.
+
+Analyzing generic Entity <counter_ce> in library <work> (Architecture <behavior>).
+	w = 10
+Entity <counter_ce> analyzed. Unit <counter_ce> generated.
+
+Analyzing Entity <ontvanger> in library <work> (Architecture <behavior>).
+Entity <ontvanger> analyzed. Unit <ontvanger> generated.
+
+Analyzing Entity <ontvanger_accesslayer> in library <work> (Architecture <behavior>).
+INFO:Xst:1561 - "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_accesslayer.vhd" line 183: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_accesslayer.vhd" line 195: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_accesslayer.vhd" line 207: Mux is complete : default of case is discarded
+Entity <ontvanger_accesslayer> analyzed. Unit <ontvanger_accesslayer> generated.
+
+Analyzing Entity <dpll> in library <work> (Architecture <behavior>).
+Entity <dpll> analyzed. Unit <dpll> generated.
+
+Analyzing Entity <matched_filter> in library <work> (Architecture <behavior>).
+Entity <matched_filter> analyzed. Unit <matched_filter> generated.
+
+Analyzing Entity <pngeneratornco> in library <work> (Architecture <behavior>).
+Entity <pngeneratornco> analyzed. Unit <pngeneratornco> generated.
+
+Analyzing Entity <ped> in library <work> (Architecture <behavior>).
+Entity <ped> analyzed. Unit <ped> generated.
+
+Analyzing Entity <despread> in library <work> (Architecture <behavior>).
+Entity <despread> analyzed. Unit <despread> generated.
+
+Analyzing Entity <correlator> in library <work> (Architecture <behavior>).
+Entity <correlator> analyzed. Unit <correlator> generated.
+
+Analyzing Entity <ontvanger_datalinklayer> in library <work> (Architecture <behavior>).
+Entity <ontvanger_datalinklayer> analyzed. Unit <ontvanger_datalinklayer> generated.
+
+Analyzing Entity <ontvanger_dataregister> in library <work> (Architecture <behavior>).
+Entity <ontvanger_dataregister> analyzed. Unit <ontvanger_dataregister> generated.
+
+Analyzing Entity <ontvanger_applicationlayer> in library <work> (Architecture <behavior>).
+Entity <ontvanger_applicationlayer> analyzed. Unit <ontvanger_applicationlayer> generated.
+
+Analyzing Entity <binair2sevenseg> in library <work> (Architecture <behavior>).
+INFO:Xst:1561 - "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/binair2sevenseg.vhd" line 47: Mux is complete : default of case is discarded
+Entity <binair2sevenseg> analyzed. Unit <binair2sevenseg> generated.
+
+Analyzing Entity <data_latch> in library <work> (Architecture <behavior>).
+Entity <data_latch> analyzed. Unit <data_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <counter_ce>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/counter_ce.vhd".
+    Found 10-bit up counter for signal <present_state>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter_ce> synthesized.
+
+
+Synthesizing Unit <dpll>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/dpll.vhd".
+    Using one-hot encoding for signal <present_state_ed>.
+    Using one-hot encoding for signal <sema_out>.
+    Found 4x1-bit ROM for signal <$mux0018>.
+    Found 4-bit adder for signal <$addsub0000> created at line 135.
+    Found 5-bit subtractor for signal <$addsub0001> created at line 204.
+    Found 4-bit comparator lessequal for signal <$cmp_le0000> created at line 120.
+    Found 4-bit comparator lessequal for signal <$cmp_le0001> created at line 121.
+    Found 4-bit comparator lessequal for signal <$cmp_le0002> created at line 123.
+    Found 4-bit comparator lessequal for signal <$cmp_le0003> created at line 125.
+    Found 2-bit register for signal <nco_chip_sample_d>.
+    Found 4-bit register for signal <present_state_ed>.
+    Found 5-bit register for signal <present_state_nco>.
+    Found 1-bit register for signal <present_state_sema>.
+    Found 4-bit register for signal <present_state_transsegdec>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  16 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+Unit <dpll> synthesized.
+
+
+Synthesizing Unit <matched_filter>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/matched_filter.vhd".
+    Found 1-bit 4-to-1 multiplexer for signal <seq_det>.
+    Found 31-bit register for signal <present_state>.
+    Summary:
+	inferred  31 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <matched_filter> synthesized.
+
+
+Synthesizing Unit <despread>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/despread.vhd".
+    Found 1-bit xor2 for signal <$xor0002> created at line 49.
+    Found 1-bit register for signal <present_state>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <despread> synthesized.
+
+
+Synthesizing Unit <correlator>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/correlator.vhd".
+    Found 6-bit addsub for signal <$addsub0000>.
+    Found 6-bit 4-to-1 multiplexer for signal <$mux0005>.
+    Found 1-bit register for signal <data_delay>.
+    Found 6-bit register for signal <present_state1>.
+    Found 1-bit register for signal <present_state2>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 Multiplexer(s).
+Unit <correlator> synthesized.
+
+
+Synthesizing Unit <ped>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ped.vhd".
+    Using one-hot encoding for signal <pres_state>.
+    Found 3-bit register for signal <pres_state>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <ped> synthesized.
+
+
+Synthesizing Unit <ontvanger_dataregister>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_dataregister.vhd".
+    Found 11-bit register for signal <present_state>.
+    Summary:
+	inferred  11 D-type flip-flop(s).
+Unit <ontvanger_dataregister> synthesized.
+
+
+Synthesizing Unit <binair2sevenseg>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/binair2sevenseg.vhd".
+    Found 16x7-bit ROM for signal <seven_seg>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <binair2sevenseg> synthesized.
+
+
+Synthesizing Unit <data_latch>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/data_latch.vhd".
+    Found 4-bit register for signal <data_in_d_present_state>.
+    Found 7-bit register for signal <present_state1>.
+    Found 4-bit register for signal <present_state2>.
+    Summary:
+	inferred  15 D-type flip-flop(s).
+Unit <data_latch> synthesized.
+
+
+Synthesizing Unit <ontvanger_datalinklayer>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_datalinklayer.vhd".
+Unit <ontvanger_datalinklayer> synthesized.
+
+
+Synthesizing Unit <ontvanger_applicationlayer>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_applicationlayer.vhd".
+Unit <ontvanger_applicationlayer> synthesized.
+
+
+Synthesizing Unit <pngeneratornco>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/pngeneratornco.vhd".
+    Found 1-bit xor2 for signal <pn_gold>.
+    Found 5-bit 4-to-1 multiplexer for signal <$mux0004>.
+    Found 5-bit 4-to-1 multiplexer for signal <$mux0005>.
+    Found 1-bit xor2 for signal <$xor0000> created at line 74.
+    Found 1-bit xor4 for signal <$xor0001> created at line 75.
+    Found 5-bit register for signal <present_state_pn1>.
+    Found 5-bit register for signal <present_state_pn2>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+	inferred  10 Multiplexer(s).
+	inferred   1 Xor(s).
+Unit <pngeneratornco> synthesized.
+
+
+Synthesizing Unit <ontvanger_accesslayer>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_accesslayer.vhd".
+    Found 1-bit register for signal <dpll_ed_out_d>.
+    Found 1-bit 4-to-1 multiplexer for signal <pn_seq>.
+    Found 1-bit register for signal <pn_seq_d>.
+    Found 1-bit 4-to-1 multiplexer for signal <sdi_despread_mux>.
+    Found 1-bit 4-to-1 multiplexer for signal <seq_det_mux>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <ontvanger_accesslayer> synthesized.
+
+
+Synthesizing Unit <ontvanger>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger.vhd".
+Unit <ontvanger> synthesized.
+
+
+Synthesizing Unit <spreadspectrumrx>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/spreadspectrumrx.vhd".
+Unit <spreadspectrumrx> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x1-bit ROM                                           : 1
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 1
+ 5-bit subtractor                                      : 1
+ 6-bit addsub                                          : 1
+# Counters                                             : 1
+ 10-bit up counter                                     : 1
+# Registers                                            : 20
+ 1-bit register                                        : 8
+ 11-bit register                                       : 1
+ 3-bit register                                        : 1
+ 31-bit register                                       : 1
+ 4-bit register                                        : 4
+ 5-bit register                                        : 3
+ 6-bit register                                        : 1
+ 7-bit register                                        : 1
+# Comparators                                          : 4
+ 4-bit comparator lessequal                            : 4
+# Multiplexers                                         : 7
+ 1-bit 4-to-1 multiplexer                              : 4
+ 5-bit 4-to-1 multiplexer                              : 2
+ 6-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 4
+ 1-bit xor2                                            : 3
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '2vp30.nph' in environment D:\Xilinx2.
+INFO:Xst:1647 - Data output of ROM <Mrom__mux0018> is tied to register <present_state_sema>.
+INFO:Xst:2506 - In order to maximize performance and save block RAM resources, this small ROM will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x1-bit ROM                                           : 1
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 1
+ 5-bit subtractor                                      : 1
+ 6-bit addsub                                          : 1
+# Counters                                             : 1
+ 10-bit up counter                                     : 1
+# Registers                                            : 97
+ Flip-Flops                                            : 97
+# Comparators                                          : 4
+ 4-bit comparator lessequal                            : 4
+# Multiplexers                                         : 7
+ 1-bit 4-to-1 multiplexer                              : 4
+ 5-bit 4-to-1 multiplexer                              : 2
+ 6-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 4
+ 1-bit xor2                                            : 3
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <spreadspectrumrx> ...
+
+Optimizing unit <ontvanger_dataregister> ...
+
+Optimizing unit <dpll> ...
+
+Optimizing unit <pngeneratornco> ...
+
+Optimizing unit <data_latch> ...
+
+Optimizing unit <matched_filter> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_9> in Unit <spreadspectrumrx> is equivalent to the following FF/Latch, which will be removed : <ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_4> 
+INFO:Xst:2261 - The FF/Latch <ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_1> in Unit <spreadspectrumrx> is equivalent to the following FF/Latch, which will be removed : <ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/data_in_d_present_state_0> 
+INFO:Xst:2261 - The FF/Latch <ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_3> in Unit <spreadspectrumrx> is equivalent to the following FF/Latch, which will be removed : <ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/data_in_d_present_state_2> 
+INFO:Xst:2261 - The FF/Latch <ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_2> in Unit <spreadspectrumrx> is equivalent to the following FF/Latch, which will be removed : <ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/data_in_d_present_state_1> 
+INFO:Xst:2261 - The FF/Latch <ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_8> in Unit <spreadspectrumrx> is equivalent to the following FF/Latch, which will be removed : <ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_3> 
+INFO:Xst:2261 - The FF/Latch <ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_4> in Unit <spreadspectrumrx> is equivalent to the following FF/Latch, which will be removed : <ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/data_in_d_present_state_3> 
+INFO:Xst:2261 - The FF/Latch <ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_5> in Unit <spreadspectrumrx> is equivalent to the following FF/Latch, which will be removed : <ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_0> 
+INFO:Xst:2261 - The FF/Latch <ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_6> in Unit <spreadspectrumrx> is equivalent to the following FF/Latch, which will be removed : <ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_1> 
+INFO:Xst:2261 - The FF/Latch <ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_10> in Unit <spreadspectrumrx> is equivalent to the following FF/Latch, which will be removed : <ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_5> 
+INFO:Xst:2261 - The FF/Latch <ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_7> in Unit <spreadspectrumrx> is equivalent to the following FF/Latch, which will be removed : <ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_2> 
+Found area constraint ratio of 100 (+ 5) on block spreadspectrumrx, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 97
+ Flip-Flops                                            : 97
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : spreadspectrumrx.ngr
+Top Level Output File Name         : spreadspectrumrx
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 209
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 9
+#      LUT2                        : 50
+#      LUT3                        : 16
+#      LUT3_L                      : 4
+#      LUT4                        : 92
+#      LUT4_D                      : 2
+#      LUT4_L                      : 6
+#      MUXCY                       : 9
+#      MUXF5                       : 8
+#      VCC                         : 1
+#      XORCY                       : 9
+# FlipFlops/Latches                : 97
+#      FDE                         : 87
+#      FDSE                        : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 4
+#      OBUF                        : 7
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2vp30ff896-6 
+
+ Number of Slices:                      99  out of  13696     0%  
+ Number of Slice Flip Flops:            97  out of  27392     0%  
+ Number of 4 input LUTs:               181  out of  27392     0%  
+ Number of IOs:                         12
+ Number of bonded IOBs:                 12  out of    556     2%  
+ Number of GCLKs:                        1  out of     16     6%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_100mhz                         | BUFGP                  | 97    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 5.566ns (Maximum Frequency: 179.662MHz)
+   Minimum input arrival time before clock: 5.828ns
+   Maximum output required time after clock: 4.618ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_100mhz'
+  Clock period: 5.566ns (frequency: 179.662MHz)
+  Total number of paths / destination ports: 4016 / 183
+-------------------------------------------------------------------------
+Delay:               5.566ns (Levels of Logic = 6)
+  Source:            ontvanger_inst/ontvanger_accesslayer_inst/matched_filter_inst/present_state_19 (FF)
+  Destination:       ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst/present_state_pn1_0 (FF)
+  Source Clock:      clk_100mhz rising
+  Destination Clock: clk_100mhz rising
+
+  Data Path: ontvanger_inst/ontvanger_accesslayer_inst/matched_filter_inst/present_state_19 to ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst/present_state_pn1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.374   0.610  ontvanger_inst/ontvanger_accesslayer_inst/matched_filter_inst/present_state_19 (ontvanger_inst/ontvanger_accesslayer_inst/matched_filter_inst/present_state_19)
+     LUT3_L:I0->LO         1   0.313   0.150  ontvanger_inst/ontvanger_accesslayer_inst/matched_filter_inst/seq_det15_SW0 (N439)
+     LUT4:I3->O            3   0.313   0.517  ontvanger_inst/ontvanger_accesslayer_inst/matched_filter_inst/seq_det15 (ontvanger_inst/ontvanger_accesslayer_inst/matched_filter_inst/N12)
+     LUT4:I3->O            1   0.313   0.533  ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux112 (ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux_map326)
+     LUT4:I0->O            1   0.313   0.440  ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux157 (ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux_map339)
+     LUT4_D:I3->LO         1   0.313   0.128  ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux232 (N671)
+     LUT4:I2->O           10   0.313   0.601  ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst/_not000311 (ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst/_not0003)
+     FDE:CE                    0.335          ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst/present_state_pn1_4
+    ----------------------------------------
+    Total                      5.566ns (2.587ns logic, 2.979ns route)
+                                       (46.5% logic, 53.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_100mhz'
+  Total number of paths / destination ports: 558 / 163
+-------------------------------------------------------------------------
+Offset:              5.828ns (Levels of Logic = 6)
+  Source:            p<1> (PAD)
+  Destination:       ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst/present_state_pn1_0 (FF)
+  Destination Clock: clk_100mhz rising
+
+  Data Path: p<1> to ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst/present_state_pn1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   0.919   0.834  p_1_IBUF (p_1_IBUF)
+     LUT2:I0->O            2   0.313   0.588  ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux49_SW0 (N597)
+     LUT4:I0->O            1   0.313   0.440  ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux51 (ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux_map311)
+     LUT4:I3->O            1   0.313   0.418  ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux57 (ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux_map312)
+     LUT4_D:I2->LO         1   0.313   0.128  ontvanger_inst/ontvanger_accesslayer_inst/seq_det_mux232 (N671)
+     LUT4:I2->O           10   0.313   0.601  ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst/_not000311 (ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst/_not0003)
+     FDE:CE                    0.335          ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst/present_state_pn1_4
+    ----------------------------------------
+    Total                      5.828ns (2.819ns logic, 3.009ns route)
+                                       (48.4% logic, 51.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100mhz'
+  Total number of paths / destination ports: 28 / 7
+-------------------------------------------------------------------------
+Offset:              4.618ns (Levels of Logic = 2)
+  Source:            ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state2_3 (FF)
+  Destination:       seven_segment<6> (PAD)
+  Source Clock:      clk_100mhz rising
+
+  Data Path: ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state2_3 to seven_segment<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              7   0.374   0.690  ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state2_3 (ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state2_3)
+     LUT4:I0->O            1   0.313   0.390  seven_segment<6>1 (seven_segment_6_OBUF)
+     OBUF:I->O                 2.851          seven_segment_6_OBUF (seven_segment<6>)
+    ----------------------------------------
+    Total                      4.618ns (3.538ns logic, 1.080ns route)
+                                       (76.6% logic, 23.4% route)
+
+=========================================================================
+CPU : 4.88 / 4.94 s | Elapsed : 5.00 / 5.00 s
+ 
+--> 
+
+Total memory usage is 280644 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :   17 (   0 filtered)
+

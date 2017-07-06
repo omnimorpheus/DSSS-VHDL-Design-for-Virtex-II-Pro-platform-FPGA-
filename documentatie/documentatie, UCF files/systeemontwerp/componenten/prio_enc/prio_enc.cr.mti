@@ -1,0 +1,45 @@
+{I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd} {1 {vcom -work prio_enc -2002 -explicit -vopt {I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity prio_enc_test
+-- Compiling architecture structural of prio_enc_test
+-- Loading entity prio_enc
+
+} {} {}} {{I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd}} {0 {vcom -work work -2002 -explicit -vopt {I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity prio_enc_test
+-- Compiling architecture structural of prio_enc_test
+** Error: (vcom-11) Could not find work.prio_enc.
+** Error: I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd(17): (vcom-1195) Cannot find expanded name "work.prio_enc".
+** Error: I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd(17): (vcom-1105) Name (indexed name) does not denote an entity name.
+** Error: I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd(17): Unknown expanded name.
+** Error: I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd(33): (vcom-1272) Length of expected is 16; length of actual is 8.
+** Warning: [14] I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd(37): (vcom-1272) Length of expected is 8; length of actual is 16.
+** Error: I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc_test.vhd(44): VHDL Compiler exiting
+
+} {9.0 14.0 15.0 16.0} {}} {I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc.vhd} {1 {vcom -work prio_enc -2002 -explicit -vopt {I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity prio_enc
+-- Compiling architecture behavior of prio_enc
+
+} {} {}} {{I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc.vhd}} {1 {vcom -work work -2002 -explicit -vopt {I:/Jelle Meeus/2Ba2E/Digitale elektronica/prio_enc/prio_enc.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity prio_dec
+-- Compiling architecture behavior of prio_dec
+
+} {} {}}

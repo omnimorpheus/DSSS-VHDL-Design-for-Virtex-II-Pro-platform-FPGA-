@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech_6.5\examples
+T_opt
+VeIG1K[24GF`W:oA[NCCiF3
+04 10 10 work counter_tb structural 1
+=1-989096e0a932-57ea1ff0-2e6-394
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;6.5;42
+Ecounter
+Z1 w1474959398
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z3 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 dE:\Jelle Meeus\digitale synthese\documentatie, UCF files
+Z6 8E:/Jelle Meeus/digitale synthese/documentatie, UCF files/counter.vhd
+Z7 FE:/Jelle Meeus/digitale synthese/documentatie, UCF files/counter.vhd
+l0
+L6
+Vo?:o6`6nBMf[Ra64nJ`362
+Z8 OE;C;6.5;42
+32
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1
+!s100 m0NWf399KP1KeAkZcnnGK3
+Abehav
+R2
+R3
+R4
+Z11 DEx4 work 7 counter 0 22 o?:o6`6nBMf[Ra64nJ`362
+l19
+L15
+V=Iza4WgeG>QcHm3@i@]j80
+!s100 ^BQeiV3GWM5nk?zUMao6_1
+R8
+32
+Z12 Mx3 4 ieee 14 std_logic_1164
+Mx2 4 ieee 15 std_logic_arith
+Mx1 4 ieee 18 std_logic_unsigned
+R9
+R10
+Ecounter_tb
+Z13 w1474959400
+R3
+R2
+Z14 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R4
+R5
+Z15 8E:/Jelle Meeus/digitale synthese/documentatie, UCF files/counter_tb.vhd
+Z16 FE:/Jelle Meeus/digitale synthese/documentatie, UCF files/counter_tb.vhd
+l0
+L6
+V;6_Zla`1SP;12]HbhEV7P3
+!s100 VXZFW8i]OB2oiHFLdHGBV2
+R8
+32
+R9
+R10
+Astructural
+R11
+R3
+R2
+R14
+R4
+Z17 DEx4 work 10 counter_tb 0 22 ;6_Zla`1SP;12]HbhEV7P3
+l32
+L9
+Z18 VadB>;j?DOOGk<9VWSCNUj2
+Z19 !s100 I63:TNkU36AnY2?kA;[_@1
+R8
+32
+Z20 Mx4 4 ieee 14 std_logic_1164
+Z21 Mx3 4 ieee 11 numeric_std
+Z22 Mx2 4 ieee 18 std_logic_unsigned
+Z23 Mx1 4 ieee 15 std_logic_arith
+R9
+R10

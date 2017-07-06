@@ -1,0 +1,192 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# OpenFile C:/_USER/school/digsyntheselabo/14dec_xilinx/simulatie/zenderontvanger/zenderontvanger.mpf
+# Loading project zenderontvanger
+# Compile of zender.vhd was successful.
+# Compile of accesslayer.vhd was successful.
+# Compile of applicationlayer.vhd was successful.
+# Compile of binair2sevenseg.vhd was successful.
+# Compile of correlator.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of data_latch.vhd was successful.
+# Compile of datalinklayer.vhd was successful.
+# Compile of dataregister.vhd was successful.
+# Compile of debouncer.vhd was successful.
+# Compile of despread.vhd was successful.
+# Compile of dpll.vhd was successful.
+# Compile of matched_filter.vhd was successful.
+# Compile of ontvanger.vhd was successful.
+# Compile of ontvanger_accesslayer.vhd was successful.
+# Compile of ontvanger_applicationlayer.vhd was successful.
+# Compile of ontvanger_datalinklayer.vhd was successful.
+# Compile of ontvanger_dataregister.vhd was successful.
+# Compile of ped.vhd was successful.
+# Compile of pngenerator.vhd was successful.
+# Compile of pngeneratornco.vhd was successful.
+# Compile of sequencecontroller.vhd was successful.
+# Compile of spreadspectrum_sim.vhd was successful.
+# Compile of spreadspectrum_sim_test.vhd was successful.
+# Compile of spreadspectrumrx.vhd was successful.
+# Compile of spreadspectrumtx.vhd was successful.
+# Compile of counter_ce.vhd was successful.
+# 27 compiles, 0 failed with no errors.
+vsim -gui work.spreadspectrum_sim_test
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\_USER\school\digsyntheselabo\14dec_xilinx\simulatie\zenderontvanger\zenderontvanger.mpf 
+# Start time: 10:12:56 on Dec 14,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.spreadspectrum_sim_test(structural)
+# Loading work.spreadspectrum_sim(behavior)
+# Loading work.spreadspectrumtx(behavior)
+# Loading work.counter_ce(behavior)
+# Loading work.zender(behavior)
+# Loading work.applicationlayer(behavior)
+# Loading work.debouncer(behav)
+# Loading work.ped(behavior)
+# Loading work.counter(behavior)
+# Loading work.binair2sevenseg(behavior)
+# Loading work.datalinklayer(behavior)
+# Loading work.sequencecontroller(behavior)
+# Loading work.dataregister(behavior)
+# Loading work.accesslayer(behavior)
+# Loading work.pngenerator(behavior)
+# Loading work.spreadspectrumrx(behavior)
+# Loading work.ontvanger(behavior)
+# Loading work.ontvanger_accesslayer(behavior)
+# Loading work.dpll(behavior)
+# Loading work.matched_filter(behavior)
+# Loading work.pngeneratornco(behavior)
+# Loading work.despread(behavior)
+# Loading work.correlator(behavior)
+# Loading work.ontvanger_datalinklayer(behavior)
+# Loading work.ontvanger_dataregister(behavior)
+# Loading work.ontvanger_applicationlayer(behavior)
+# Loading work.data_latch(behavior)
+# ** Warning: Design size of 12298 statements or 32 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be quite adversely affected.
+add wave -r /*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Jelle  Hostname: DESKTOP-HTAEA9M  ProcessID: 6604
+# 
+#           Attempting to use alternate WLF file "./wlftr0zbxi".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftr0zbxi
+# 
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/counter_ce_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/counter_ce_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/counter_ce_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumtx_inst/zender_inst/accesslayer_inst/pngenerator_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumtx_inst/zender_inst/accesslayer_inst/pngenerator_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumtx_inst/zender_inst/applicationlayer_inst/counter_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumtx_inst/counter_ce_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumtx_inst/counter_ce_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /spreadspectrum_sim_test/uut/spreadspectrumtx_inst/counter_ce_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/matched_filter_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/matched_filter_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/pngeneratornco_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumtx_inst/zender_inst/datalinklayer_inst/sequencecontroller_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /spreadspectrum_sim_test/uut/spreadspectrumtx_inst/zender_inst/applicationlayer_inst/counter_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_accesslayer_inst/dpll_inst
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /spreadspectrum_sim_test/uut/spreadspectrumrx_inst/ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.

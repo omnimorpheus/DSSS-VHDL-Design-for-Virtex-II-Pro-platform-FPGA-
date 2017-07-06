@@ -1,0 +1,84 @@
+m255
+K3
+13
+cModel Technology
+Z0 dI:\Jelle Meeus\2Ba2E\Digitale elektronica\comb_logica
+T_opt
+V<Z9X`Udm;zM`W:zC6KzVT0
+04 14 10 work adres_dec_test structural 1
+Z1 =1-0023ae839fb5-55005208-32c-8ac
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 n@_opt
+Z4 OE;O;6.5;42
+T_opt1
+Z5 VD??T?Qi>43R2`zDgO<^h53
+Z6 04 9 8 work adres_dec behavior 1
+Z7 =1-0023ae839fb5-55004cee-31c-24c
+R2
+Z8 n@_opt1
+R4
+Eadres_dec
+Z9 w1426084342
+Z10 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z11 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z12 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z13 dI:\Jelle Meeus\2Ba2E\Digitale elektronica\adres_dec
+Z14 8I:/Jelle Meeus/2Ba2E/Digitale elektronica/adres_dec/adres_dec.vhd
+Z15 FI:/Jelle Meeus/2Ba2E/Digitale elektronica/adres_dec/adres_dec.vhd
+l0
+L20
+Z16 V5N1KEiQ8<dzcno5Xc`9lX3
+Z17 OE;C;6.5;42
+32
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1
+Z20 !s100 neZd<Jg93RK_Mb?z@M[To1
+Abehavior
+R10
+R11
+R12
+Z21 DEx4 work 9 adres_dec 0 22 5N1KEiQ8<dzcno5Xc`9lX3
+l27
+L26
+Z22 VX4UOjTFo0f?I_Q@;DH>Q91
+R17
+32
+Z23 Mx3 4 ieee 14 std_logic_1164
+Z24 Mx2 4 ieee 18 std_logic_unsigned
+Z25 Mx1 4 ieee 15 std_logic_arith
+R18
+R19
+Z26 !s100 nHT?@_KEAJ;h2LA4P5Tm_3
+Eadres_dec_test
+Z27 w1426083899
+R10
+R11
+R12
+R13
+Z28 8I:/Jelle Meeus/2Ba2E/Digitale elektronica/adres_dec/adres_dec_test.vhd
+Z29 FI:/Jelle Meeus/2Ba2E/Digitale elektronica/adres_dec/adres_dec_test.vhd
+l0
+L6
+Z30 VOXQ^I1HADI5<Fj9k1_Tc]0
+R17
+32
+R18
+R19
+Z31 !s100 ?UJ]WH@[IDBNg[UEHJeo83
+Astructural
+R21
+R10
+R11
+R12
+Z32 DEx4 work 14 adres_dec_test 0 22 OXQ^I1HADI5<Fj9k1_Tc]0
+l27
+L9
+Z33 Vo:DkhF<Zl_Qg7;DU3Blg=0
+R17
+32
+R23
+R24
+R25
+R18
+R19
+Z34 !s100 _[lIC=7jZUA?enAjCG_Z]0

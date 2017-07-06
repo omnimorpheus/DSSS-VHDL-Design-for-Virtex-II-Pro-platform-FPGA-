@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise E:/Jelle Meeus/digitale synthese/19dec/xilinx/ontvanger/ontvanger.ise -intstyle ise -ifn E:/Jelle Meeus/digitale synthese/19dec/xilinx/ontvanger/spreadspectrumrx.xst -ofn E:/Jelle Meeus/digitale synthese/19dec/xilinx/ontvanger/spreadspectrumrx.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

@@ -1,0 +1,24 @@
+E:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp_test.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp_test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity systeemontwerp_test
+-- Compiling architecture structural of systeemontwerp_test
+-- Loading entity systeemontwerp
+
+} {} {}} E:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/VHDL/systeemontwerp/componenten/systeemontwerp/systeemontwerp.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity systeemontwerp
+-- Compiling architecture behavior of systeemontwerp
+
+} {} {}}

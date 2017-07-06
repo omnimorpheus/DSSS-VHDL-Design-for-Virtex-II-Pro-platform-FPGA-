@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1561" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_accesslayer.vhd</arg>&quot; line <arg fmt="%d" index="2">183</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_accesslayer.vhd</arg>&quot; line <arg fmt="%d" index="2">195</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/ontvanger_accesslayer.vhd</arg>&quot; line <arg fmt="%d" index="2">207</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/ontvanger/binair2sevenseg.vhd</arg>&quot; line <arg fmt="%d" index="2">47</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="unknown" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="1647" delta="unknown" >Data output of ROM &lt;<arg fmt="%s" index="1">Mrom__mux0018</arg>&gt; is tied to register &lt;<arg fmt="%s" index="2">present_state_sema</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2506" delta="unknown" >In order to maximize performance and save block RAM resources, this small ROM will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spreadspectrumrx</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spreadspectrumrx</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/data_in_d_present_state_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spreadspectrumrx</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/data_in_d_present_state_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spreadspectrumrx</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/data_in_d_present_state_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spreadspectrumrx</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spreadspectrumrx</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/data_in_d_present_state_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spreadspectrumrx</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spreadspectrumrx</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spreadspectrumrx</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">ontvanger_inst/ontvanger_datalinklayer_inst/dataregister_inst/present_state_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">spreadspectrumrx</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ontvanger_inst/ontvanger_applicationlayer_inst/data_latch_inst/present_state1_2&gt; </arg>
+</msg>
+
+</messages>

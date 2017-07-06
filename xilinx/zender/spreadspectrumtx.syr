@@ -1,0 +1,616 @@
+Release 8.2i - xst I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.05 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.05 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: spreadspectrumtx.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "spreadspectrumtx.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "spreadspectrumtx"
+Output Format                      : NGC
+Target Device                      : xc2vp30-6-ff896
+
+---- Source Options
+Top Module Name                    : spreadspectrumtx
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : spreadspectrumtx.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+tristate2logic                     : Yes
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/pngenerator.vhd" in Library work.
+Architecture behavior of Entity pngenerator is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/sequencecontroller.vhd" in Library work.
+Architecture behavior of Entity sequencecontroller is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/dataregister.vhd" in Library work.
+Architecture behavior of Entity dataregister is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/rotary_enc.vhd" in Library work.
+Architecture behavior of Entity rotary_enc is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/debouncer.vhd" in Library work.
+Architecture behav of Entity debouncer is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/ped.vhd" in Library work.
+Architecture behavior of Entity ped is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/counter.vhd" in Library work.
+Architecture behavior of Entity counter is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/binair2sevenseg.vhd" in Library work.
+Architecture behavior of Entity binair2sevenseg is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/applicationlayer.vhd" in Library work.
+Architecture behavior of Entity applicationlayer is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/datalinklayer.vhd" in Library work.
+Architecture behavior of Entity datalinklayer is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/accesslayer.vhd" in Library work.
+Architecture behavior of Entity accesslayer is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/counter_ce.vhd" in Library work.
+Architecture behavior of Entity counter_ce is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.vhd" in Library work.
+Architecture behavior of Entity zender is up to date.
+Compiling vhdl file "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/spreadspectrumtx.vhd" in Library work.
+Architecture behavior of Entity spreadspectrumtx is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <spreadspectrumtx> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <counter_ce> in library <work> (architecture <behavior>) with generics.
+	w = 14
+
+Analyzing hierarchy for entity <zender> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <applicationlayer> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <datalinklayer> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <accesslayer> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <rotary_enc> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <debouncer> in library <work> (architecture <behav>).
+
+Analyzing hierarchy for entity <ped> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <counter> in library <work> (architecture <behavior>) with generics.
+	w = 4
+
+Analyzing hierarchy for entity <binair2sevenseg> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <sequencecontroller> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <dataregister> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <pngenerator> in library <work> (architecture <behavior>).
+
+Building hierarchy successfully finished.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <spreadspectrumtx> in library <work> (Architecture <behavior>).
+Entity <spreadspectrumtx> analyzed. Unit <spreadspectrumtx> generated.
+
+Analyzing generic Entity <counter_ce> in library <work> (Architecture <behavior>).
+	w = 14
+Entity <counter_ce> analyzed. Unit <counter_ce> generated.
+
+Analyzing Entity <zender> in library <work> (Architecture <behavior>).
+Entity <zender> analyzed. Unit <zender> generated.
+
+Analyzing Entity <applicationlayer> in library <work> (Architecture <behavior>).
+Entity <applicationlayer> analyzed. Unit <applicationlayer> generated.
+
+Analyzing Entity <rotary_enc> in library <work> (Architecture <behavior>).
+Entity <rotary_enc> analyzed. Unit <rotary_enc> generated.
+
+Analyzing Entity <debouncer> in library <work> (Architecture <behav>).
+Entity <debouncer> analyzed. Unit <debouncer> generated.
+
+Analyzing Entity <ped> in library <work> (Architecture <behavior>).
+Entity <ped> analyzed. Unit <ped> generated.
+
+Analyzing generic Entity <counter> in library <work> (Architecture <behavior>).
+	w = 4
+Entity <counter> analyzed. Unit <counter> generated.
+
+Analyzing Entity <binair2sevenseg> in library <work> (Architecture <behavior>).
+INFO:Xst:1561 - "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/binair2sevenseg.vhd" line 47: Mux is complete : default of case is discarded
+Entity <binair2sevenseg> analyzed. Unit <binair2sevenseg> generated.
+
+Analyzing Entity <datalinklayer> in library <work> (Architecture <behavior>).
+Entity <datalinklayer> analyzed. Unit <datalinklayer> generated.
+
+Analyzing Entity <sequencecontroller> in library <work> (Architecture <behavior>).
+Entity <sequencecontroller> analyzed. Unit <sequencecontroller> generated.
+
+Analyzing Entity <dataregister> in library <work> (Architecture <behavior>).
+Entity <dataregister> analyzed. Unit <dataregister> generated.
+
+Analyzing Entity <accesslayer> in library <work> (Architecture <behavior>).
+INFO:Xst:1561 - "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/accesslayer.vhd" line 99: Mux is complete : default of case is discarded
+Entity <accesslayer> analyzed. Unit <accesslayer> generated.
+
+Analyzing Entity <pngenerator> in library <work> (Architecture <behavior>).
+Entity <pngenerator> analyzed. Unit <pngenerator> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <counter_ce>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/counter_ce.vhd".
+    Found 14-bit up counter for signal <present_state>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter_ce> synthesized.
+
+
+Synthesizing Unit <rotary_enc>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/rotary_enc.vhd".
+    Using one-hot encoding for signal <present_state_ed>.
+    Found 4-bit register for signal <present_state_ed>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <rotary_enc> synthesized.
+
+
+Synthesizing Unit <debouncer>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/debouncer.vhd".
+    Found 1-bit xor2 for signal <ld_sh>.
+    Found 4-bit register for signal <pres_shift>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <debouncer> synthesized.
+
+
+Synthesizing Unit <ped>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/ped.vhd".
+    Using one-hot encoding for signal <pres_state>.
+    Found 3-bit register for signal <pres_state>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <ped> synthesized.
+
+
+Synthesizing Unit <counter>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/counter.vhd".
+    Found 1-bit xor2 for signal <$xor0002> created at line 55.
+    Found 4-bit updown counter for signal <present_state>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter> synthesized.
+
+
+Synthesizing Unit <binair2sevenseg>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/binair2sevenseg.vhd".
+    Found 16x7-bit ROM for signal <seven_seg>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <binair2sevenseg> synthesized.
+
+
+Synthesizing Unit <sequencecontroller>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/sequencecontroller.vhd".
+    Found 4x2-bit ROM for signal <load_shift>.
+    Found 5-bit comparator less for signal <$cmp_lt0000> created at line 49.
+    Found 4-bit up counter for signal <present_state>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <sequencecontroller> synthesized.
+
+
+Synthesizing Unit <dataregister>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/dataregister.vhd".
+    Found 11-bit 4-to-1 multiplexer for signal <$mux0003>.
+    Found 1-bit xor2 for signal <$xor0004> created at line 48.
+    Found 11-bit register for signal <present_state>.
+    Summary:
+	inferred  11 D-type flip-flop(s).
+	inferred  11 Multiplexer(s).
+Unit <dataregister> synthesized.
+
+
+Synthesizing Unit <pngenerator>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/pngenerator.vhd".
+    Found 1-bit xor2 for signal <pn_gold>.
+    Found 1-bit xor2 for signal <$xor0000> created at line 57.
+    Found 1-bit xor4 for signal <$xor0001> created at line 58.
+    Found 5-bit register for signal <present_state_pn1>.
+    Found 5-bit register for signal <present_state_pn2>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <pngenerator> synthesized.
+
+
+Synthesizing Unit <applicationlayer>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/applicationlayer.vhd".
+Unit <applicationlayer> synthesized.
+
+
+Synthesizing Unit <datalinklayer>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/datalinklayer.vhd".
+Unit <datalinklayer> synthesized.
+
+
+Synthesizing Unit <accesslayer>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/accesslayer.vhd".
+    Found 1-bit 4-to-1 multiplexer for signal <sdo_spread>.
+    Found 1-bit register for signal <pn_gold_d>.
+    Found 1-bit xor2 for signal <pn_goldxor>.
+    Found 1-bit register for signal <pn_ml1_d>.
+    Found 1-bit xor2 for signal <pn_ml1xor>.
+    Found 1-bit register for signal <pn_ml2_d>.
+    Found 1-bit xor2 for signal <pn_ml2xor>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <accesslayer> synthesized.
+
+
+Synthesizing Unit <zender>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/zender.vhd".
+Unit <zender> synthesized.
+
+
+Synthesizing Unit <spreadspectrumtx>.
+    Related source file is "C:/_USER/school/digsyntheselabo/19decma/mod_met_rotary/19dec/xilinx/zender/spreadspectrumtx.vhd".
+Unit <spreadspectrumtx> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x2-bit ROM                                           : 1
+# Counters                                             : 3
+ 14-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 11
+ 1-bit register                                        : 3
+ 11-bit register                                       : 1
+ 3-bit register                                        : 2
+ 4-bit register                                        : 3
+ 5-bit register                                        : 2
+# Comparators                                          : 1
+ 5-bit comparator less                                 : 1
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 1
+ 11-bit 4-to-1 multiplexer                             : 1
+# Xors                                                 : 10
+ 1-bit xor2                                            : 9
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '2vp30.nph' in environment D:\Xilinx2.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 4x2-bit ROM                                           : 1
+# Counters                                             : 3
+ 14-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 35
+ Flip-Flops                                            : 35
+# Comparators                                          : 1
+ 5-bit comparator less                                 : 1
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 1
+ 11-bit 4-to-1 multiplexer                             : 1
+# Xors                                                 : 10
+ 1-bit xor2                                            : 9
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <spreadspectrumtx> ...
+
+Optimizing unit <pngenerator> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block spreadspectrumtx, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 64
+ Flip-Flops                                            : 64
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : spreadspectrumtx.ngr
+Top Level Output File Name         : spreadspectrumtx
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 16
+
+Cell Usage :
+# BELS                             : 132
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 13
+#      LUT2                        : 15
+#      LUT2_D                      : 1
+#      LUT3                        : 9
+#      LUT3_D                      : 1
+#      LUT4                        : 50
+#      LUT4_D                      : 2
+#      LUT4_L                      : 2
+#      MUXCY                       : 13
+#      MUXF5                       : 8
+#      VCC                         : 1
+#      XORCY                       : 13
+# FlipFlops/Latches                : 64
+#      FDE                         : 42
+#      FDRE                        : 8
+#      FDSE                        : 14
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 7
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2vp30ff896-6 
+
+ Number of Slices:                      52  out of  13696     0%  
+ Number of Slice Flip Flops:            64  out of  27392     0%  
+ Number of 4 input LUTs:                96  out of  27392     0%  
+ Number of IOs:                         16
+ Number of bonded IOBs:                 16  out of    556     2%  
+ Number of GCLKs:                        1  out of     16     6%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_100mhz                         | BUFGP                  | 64    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: 3.824ns (Maximum Frequency: 261.506MHz)
+   Minimum input arrival time before clock: 3.529ns
+   Maximum output required time after clock: 4.829ns
+   Maximum combinational path delay: 5.401ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_100mhz'
+  Clock period: 3.824ns (frequency: 261.506MHz)
+  Total number of paths / destination ports: 1249 / 120
+-------------------------------------------------------------------------
+Delay:               3.824ns (Levels of Logic = 3)
+  Source:            counter_ce_inst/present_state_4 (FF)
+  Destination:       zender_inst/applicationlayer_inst/counter_inst/present_state_0 (FF)
+  Source Clock:      clk_100mhz rising
+  Destination Clock: clk_100mhz rising
+
+  Data Path: counter_ce_inst/present_state_4 to zender_inst/applicationlayer_inst/counter_inst/present_state_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             2   0.374   0.588  counter_ce_inst/present_state_4 (counter_ce_inst/present_state_4)
+     LUT2_D:I0->O          4   0.313   0.629  counter_ce_inst/_cmp_eq00000 (counter_ce_inst/_cmp_eq0000_map0)
+     LUT4:I0->O            2   0.313   0.473  counter_ce_inst/_cmp_eq000030 (ce)
+     LUT3:I2->O            4   0.313   0.486  zender_inst/applicationlayer_inst/counter_inst/_not00011 (zender_inst/applicationlayer_inst/counter_inst/_not0001)
+     FDRE:CE                   0.335          zender_inst/applicationlayer_inst/counter_inst/present_state_0
+    ----------------------------------------
+    Total                      3.824ns (1.648ns logic, 2.176ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_100mhz'
+  Total number of paths / destination ports: 111 / 90
+-------------------------------------------------------------------------
+Offset:              3.529ns (Levels of Logic = 3)
+  Source:            channel_b (PAD)
+  Destination:       zender_inst/applicationlayer_inst/counter_inst/present_state_0 (FF)
+  Destination Clock: clk_100mhz rising
+
+  Data Path: channel_b to zender_inst/applicationlayer_inst/counter_inst/present_state_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.919   0.561  channel_b_IBUF (channel_b_IBUF)
+     LUT4_D:I1->O          4   0.313   0.602  zender_inst/applicationlayer_inst/counter_inst/count_up1 (zender_inst/applicationlayer_inst/counter_inst/count_up)
+     LUT3:I1->O            4   0.313   0.486  zender_inst/applicationlayer_inst/counter_inst/_not00011 (zender_inst/applicationlayer_inst/counter_inst/_not0001)
+     FDRE:CE                   0.335          zender_inst/applicationlayer_inst/counter_inst/present_state_0
+    ----------------------------------------
+    Total                      3.529ns (1.880ns logic, 1.649ns route)
+                                       (53.3% logic, 46.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100mhz'
+  Total number of paths / destination ports: 33 / 8
+-------------------------------------------------------------------------
+Offset:              4.829ns (Levels of Logic = 3)
+  Source:            zender_inst/datalinklayer_inst/dataregister_inst/present_state_10 (FF)
+  Destination:       tx_data (PAD)
+  Source Clock:      clk_100mhz rising
+
+  Data Path: zender_inst/datalinklayer_inst/dataregister_inst/present_state_10 to tx_data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.374   0.561  zender_inst/datalinklayer_inst/dataregister_inst/present_state_10 (zender_inst/datalinklayer_inst/dataregister_inst/present_state_10)
+     LUT4:I1->O            1   0.313   0.000  zender_inst/accesslayer_inst/Mmux_sdo_spread_f5_F (N126)
+     MUXF5:I0->O           1   0.340   0.390  zender_inst/accesslayer_inst/Mmux_sdo_spread_f5 (tx_data_OBUF)
+     OBUF:I->O                 2.851          tx_data_OBUF (tx_data)
+    ----------------------------------------
+    Total                      4.829ns (3.878ns logic, 0.951ns route)
+                                       (80.3% logic, 19.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 1
+-------------------------------------------------------------------------
+Delay:               5.401ns (Levels of Logic = 4)
+  Source:            p<0> (PAD)
+  Destination:       tx_data (PAD)
+
+  Data Path: p<0> to tx_data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.919   0.588  p_0_IBUF (p_0_IBUF)
+     LUT4:I0->O            1   0.313   0.000  zender_inst/accesslayer_inst/Mmux_sdo_spread_f5_F (N126)
+     MUXF5:I0->O           1   0.340   0.390  zender_inst/accesslayer_inst/Mmux_sdo_spread_f5 (tx_data_OBUF)
+     OBUF:I->O                 2.851          tx_data_OBUF (tx_data)
+    ----------------------------------------
+    Total                      5.401ns (4.423ns logic, 0.978ns route)
+                                       (81.9% logic, 18.1% route)
+
+=========================================================================
+CPU : 4.19 / 4.25 s | Elapsed : 4.00 / 4.00 s
+ 
+--> 
+
+Total memory usage is 280196 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

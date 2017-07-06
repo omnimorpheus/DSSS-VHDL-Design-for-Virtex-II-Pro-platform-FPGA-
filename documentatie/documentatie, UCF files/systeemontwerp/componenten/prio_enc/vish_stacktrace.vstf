@@ -1,0 +1,48 @@
+# Current time Wed Mar 11 16:46:58 2015
+# ModelSim Stack Trace
+# Program = vish
+# Id = "6.5"
+# Version = "2009.01"
+# Date = "Jan 22 2009"
+# Platform = win32
+
+Exception c0000005 has occurred at address 10229069. Traceback:
+# 0    0x10229069: 'TkWinGetDrawableDC + 0x9'
+# 1    0x10229173: 'XCopyArea + 0x23'
+# 2    0x10254ae5: 'Tk_CanvasObjCmd + 0x2d95'
+# 3    0x100583ea: 'TclServiceIdle + 0x4a'
+# 4    0x1004b834: 'Tcl_DoOneEvent + 0x124'
+# 5    0x10258f4f: 'Tk_TkwaitObjCmd + 0xdf'
+# 6    0x1000d52b: 'TclEvalObjvInternal + 0x24b'
+# 7    0x1002cad7: 'TclCompEvalObj + 0x637'
+# 8    0x1002c590: 'TclCompEvalObj + 0xf0'
+# 9    0x1005383a: 'TclObjInterpProc + 0x26a'
+# 10   0x1000d52b: 'TclEvalObjvInternal + 0x24b'
+# 11   0x1002cad7: 'TclCompEvalObj + 0x637'
+# 12   0x1002c590: 'TclCompEvalObj + 0xf0'
+# 13   0x1005383a: 'TclObjInterpProc + 0x26a'
+# 14   0x1000d52b: 'TclEvalObjvInternal + 0x24b'
+# 15   0x1002cad7: 'TclCompEvalObj + 0x637'
+# 16   0x1002c590: 'TclCompEvalObj + 0xf0'
+# 17   0x1005383a: 'TclObjInterpProc + 0x26a'
+# 18   0x1000d52b: 'TclEvalObjvInternal + 0x24b'
+# 19   0x1002cad7: 'TclCompEvalObj + 0x637'
+# 20   0x1002c590: 'TclCompEvalObj + 0xf0'
+# 21   0x1000e159: 'Tcl_EvalObjEx + 0x59'
+# 22   0x1027e12a: 'TkInvokeMenu + 0x1ca'
+# 23   0x1022ea28: 'TkWinHandleMenuEvent + 0x278'
+# 24   0x10238e01: 'TkWinGetSystemPalette + 0x251'
+# 25   0x7e398734: '<unknown (@0x7e398734)>'
+# 26   0x7e398816: '<unknown (@0x7e398816)>'
+# 27   0x7e3989cd: '<unknown (@0x7e3989cd)>'
+# 28   0x7e3996c7: '<unknown (@0x7e3996c7)>'
+# 29   0x10067f57: 'Tcl_WaitForEvent + 0x107'
+# 30   0x1004b7f2: 'Tcl_DoOneEvent + 0xe2'
+# 31   0x10262466: 'Tk_MainLoop + 0x16'
+# 32   0x004770b4: 'Mtirpc_Init + 0xfbc4'
+# 33   0x0047812f: 'Mtirpc_Init + 0x10c3f'
+# 34   0x006aa093: '<unknown (@0x6aa093)>'
+# 35   0x7c7e7077: '<unknown (@0x7c7e7077)>'
+StackWalk failed 487
+# End of Stack Trace
+
